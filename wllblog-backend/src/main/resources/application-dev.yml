@@ -69,11 +69,11 @@ mybatis-plus:
 ### oss
 oss:
   qiniu:
-    domain: http://q4rvilbdc.bkt.clouddn.com/
+    domain: http://q7kq1g7y8.bkt.clouddn.com/
     prefix: wllblog
     accessKey: ENC(M4m2MxqIaOiI6w+NyllYc5Gf8Esf57BEBAhuK8gzRSo2AJYlYGXl3WLg6mduKpvjI5x6+/5llw4=)
     secretKey: ENC(+LezTyPGJuN4eyIhIzHA4c2r853nGXetyqgHqBywAiCGAJFtXGNAon36rwfPwzJbz1FbGz+9gok=)
-    bucketName: wllblog1
+    bucketName: wllblog2
 ####### jasypt
 jasypt:
   encryptor:

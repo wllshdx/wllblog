@@ -15,7 +15,7 @@ export default {
   data () {
     return {
       siteInfo: {
-        icp: '粤ICP备17117756号',
+        icp: 'XXXXX',
         copyright: '版权所有©2019 - 2020',
         copyright_desc: '以商业目的使用本网站内容需获许可，非商业目的使用授权遵循CC BY-NC 4.0'
       }

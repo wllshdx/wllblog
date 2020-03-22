@@ -90,7 +90,7 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": [
+  "brows erslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
