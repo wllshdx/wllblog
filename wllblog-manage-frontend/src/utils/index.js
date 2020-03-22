@@ -12,8 +12,6 @@ export function getUUID () {
 }
 /**
  * @Description: 是否有权限
- * @author Bobbi
- * @date 18-9-28
 */
 export function isAuth (key) {
   return JSON.parse(sessionStorage.getItem('permissions') || '[]').indexOf(key) !== -1 || false
@@ -49,8 +47,6 @@ export function treeDataTranslate (data, id = 'id', pid = 'parentId') {
 
 /**
  * @Description: 清除登录信息
- * @author Bobbi
- * @date 18-9-28
 */
 export function clearLoginInfo () {
   Vue.cookie.delete('token')
@@ -60,9 +56,6 @@ export function clearLoginInfo () {
 
 /**
  * 根据Type获取参数
- * @param type
- * @param key
- * @returns {*}
  */
 export function getSysParam (type, key, list) {
   let sysParamList = list || JSON.parse(localStorage.getItem('sysParamList'))
@@ -76,8 +69,6 @@ export function getSysParam (type, key, list) {
 
 /**
  * 根据type获取参数列表
- * @param type
- * @returns {Array}
  */
 export function getSysParamArr (type) {
   let sysParamList = JSON.parse(localStorage.getItem('sysParamList'))
