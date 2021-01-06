@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "highlight.js": "^9.12.0",
     "iview": "^3.5.4",
     "prettier": "^1.12.1",
